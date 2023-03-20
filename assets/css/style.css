@@ -15,6 +15,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 /* Common (Thanh phan dung chung) */
 a {
     text-decoration: none;
@@ -63,7 +68,7 @@ a {
     display: flex;
     flex-direction: column;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 
@@ -83,7 +88,7 @@ a {
     font-weight: 500;
     font-size: 1.4rem;
     color: #4f5361;
-    padding: 8px 1.4rem;
+    padding: 8px 14px;
 }
 
 .nav-bar ul a:hover {
@@ -150,10 +155,10 @@ a {
 
 .hero-img {
     position: absolute;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: calc((100vw - 1110px) / 2 - 70px);
     bottom: 0;
-    /* width: 487px;
-    height: 517px; */
+    width: 487px;
+    height: 517px;
 }
 
 /* ======== Clients ======== */
