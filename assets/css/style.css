@@ -64,15 +64,6 @@ a {
     z-index: 1;
 }
 
-.hero-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #e6f0ff;
-    height: calc(100vh - 90px);
-    position: relative;
-}
-
 /* Nar Bar */
 .nav-bar {
     display: flex;
@@ -117,6 +108,15 @@ a {
 }
 
 /* Hero */
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e6f0ff;
+    height: calc(100vh - 90px);
+    position: relative;
+}
+
 .hero-wrap .info {
     width: 53%;
 }
